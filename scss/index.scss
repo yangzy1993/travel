@@ -1,0 +1,21 @@
+/*banner样式*/
+/*banner左右箭头样式*/
+.carousel-control-prev,.carousel-control-next{
+  width: 4%;
+  height: 20%;
+  top: 40%;
+  background: rgba(0,0,0,.3);
+  border-radius: 0.25rem;
+}
+/*轮播图指示器样式*/
+.carousel-indicators li{
+  background: #fff;
+  border-radius: 50%;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.carousel-indicators .active{
+  background: #0aa1ed;
+}
