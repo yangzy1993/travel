@@ -1,6 +1,19 @@
 body {
-  background-color: #f5f5f5; 
+  background-color: #f5f5f5 !important; 
 }
 .font-small{
-  font-size:0.75rem;
+  font-size:0.75rem !important;
+}
+.font-red{
+  color: #aa1e11 !important;
+}
+.bg-red{
+  background-color: #aa1e11 !important; 
+}
+.border-red{
+  border-color: #aa1e11 !important; 
+}
+.my_header{
+  width: 100% !important;
+  height:13.5rem !important;
 }

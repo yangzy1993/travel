@@ -1,0 +1,23 @@
+@charset "UTF-8";
+.breadcrumb-item + .breadcrumb-item::before {
+  content: " "; }
+
+/*分页*/
+.page-link {
+  color: #fff;
+  padding: 0.25rem 0.5rem; }
+
+.page-item + .page-item {
+  margin-left: 0.5rem; }
+
+.page-link:hover {
+  border-color: #aa1e11 !important;
+  color: #aa1e11;
+  cursor: pointer; }
+
+.page-item.active .page-link {
+  background: #aa1e11 !important;
+  border-color: #aa1e11; }
+
+.page-item.disabled .page-link {
+  color: #9aa7b3; }
