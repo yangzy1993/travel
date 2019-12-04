@@ -1,6 +1,11 @@
 .breadcrumb-item + .breadcrumb-item::before{
   content: " ";
-}     
+}    
+
+.area{
+  padding-top: 0.75rem; 
+  display: inline-block
+}
 
 /*分页*/
 .page-link{

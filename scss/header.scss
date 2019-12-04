@@ -9,12 +9,12 @@
 .logos{
   width: 8rem;
   height: 8rem;
-  border-radius: 50%;
-  background: rgb(255, 235, 235); 
+  border-radius: 50%;  
+  background: rgba(255,235,235,.3);   
   position: relative;
   img{
     position: absolute;
-    top: 50%;
+    top: 50%; 
     left: 50%;
     transform:translate(-50%,-50%);
   }
