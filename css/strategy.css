@@ -1,0 +1,19 @@
+.breadcrumb-item + .breadcrumb-item::before {
+  content: " "; }
+
+.area {
+  padding-top: 0.75rem;
+  display: inline-block; }
+
+.g-d {
+  display: block;
+  position: absolute;
+  top: 0.25rem;
+  right: 2.3rem;
+  color: #fff; }
+
+.g-d:hover {
+  color: #fff; }
+
+.zi-ti {
+  font-size: 1rem; }
