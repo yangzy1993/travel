@@ -1,9 +1,13 @@
-.hh{height:70rem;}
-.kg{background: #eeecec;}
-.dw{display:flex;}
-.lef{
-    flex-wrap: wrap;
+.hh {
+  height: 70rem; }
 
-    width: 40rem;
-    height: 25rem;
-}
+.kg {
+  background: #eeecec; }
+
+.dw {
+  display: flex; }
+
+.lef {
+  flex-wrap: wrap;
+  width: 40rem;
+  height: 25rem; }

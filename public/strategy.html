@@ -1,69 +1,319 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head lang="en">
-    <meta charset="UTF-8">
+<head>
     <title></title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/strategy.css">
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/comm.css">
+    <link rel="stylesheet" href="../css/strategy.css">
 </head>
 <body>
-    <div class="container">
-        <div class="row no-gutters">
-            <!-- 左边-->
-            <div class="col-9 bg d1">
-                <!-- 1美食攻略-->
-                <div class="kg yj">
-                    <div class="zd1">
-                        <a class="a1" href="">美食攻略</a>
-                        <a class="a2 akj" href="">更多..</a>
-                    </div>
-                    <div class=" d2 bjt1">
-
-                    </div>
-
+<header>
+    <iframe class="my_header" src="header.html" frameborder="0" scrolling="no"></iframe>
+</header>
+<div class="container">
+    <div class="row no-gutters">
+        <!-- 左侧部分 -->
+        <div class="col-8">
+            <div class="region border border-red rounded">
+                <!-- 重庆各区名 -->
+                <div class="border-bottom border-red row no-gutters">
+                    <span class="font-red d-inline-block col-1 pt-2 text-right" href="">区域：</span>
+                    <ul class="nav col-11 mt-2 bg-transparent">
+                        <li class="nav-item px-2">
+                            <a class="font-red font-small" href="">渝中区</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="font-red font-small" href="">江北区</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="font-red font-small" href="">渝北区</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="font-red font-small" href="">北碚区</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="font-red font-small" href="">巴南区</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="font-red font-small" href="">南岸区</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="font-red font-small" href="">九龙坡区</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="font-red font-small" href="">沙坪坝区</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="font-red font-small" href="">大渡口区</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="font-red font-small" href="">九龙坡区</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="font-red font-small" href="">沙坪坝区</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="font-red font-small" href="">大渡口区</a>
+                        </li>
+                    </ul>
                 </div>
-                <!-- 2.景区攻略-->
-                <div class="kg yj">
-                    <div class="zd1">
-                        <a class="a1" href="">景区攻略</a>
-                        <a class="a2 akj" href="">更多..</a>
-                    </div>
-                    <div class=" d2 bjt2">
-
-                    </div>
-                </div>
-                <!-- 3.酒店-->
-                <div class="kg yj">
-                    <div class="zd1">
-                        <a class="a1" href="">酒店</a>
-                        <a class="a2 akj" href="">更多..</a>
-                    </div>
-                    <div class=" d2 bjt3">
-
-                    </div>
-                </div>
-                <!-- 4.购物-->
-                <div class="kg kg4 yj">
-                    <div class="zd1">
-                        <a class="a1" href="">休闲娱乐</a>
-                        <a class="a2 akj" href="">更多..</a>
-                    </div>
-                    <div class=" d2 bjt4">
-
-                    </div>
+                <!-- 重庆每个区地名 -->
+                <div class="row no-gutters">
+                    <span class="font-red d-inline-block col-1 pt-2 text-right" href="">地址：</span>
+                    <ul class="nav col-11 mt-2 bg-transparent">
+                        <li class="nav-item px-2">
+                            <a class="font-red font-small" href="">解放碑</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="font-red font-small" href="">上清寺</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="font-red font-small" href="">菜园坝</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="font-red font-small" href="">朝天门</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="font-red font-small" href="">南纪门</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="font-red font-small" href="">七星岗</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="font-red font-small" href="">两路口</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="font-red font-small" href="">大溪沟</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="font-red font-small" href="">石油路</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="font-red font-small" href="">大坪</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="font-red font-small" href="">化龙桥</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <!-- 右边-->
-            <div class="col-3 bg-danger yj">
-                <div>
-
+            <!-- 美食介绍 -->
+            <div class="foods border border-red mt-2">
+                <div class=" row no-gutters justify-content-around align-content-center mb-big">
+                    <!-- 标题栏 -->
+                    <p class="col-12 bg-red text-light p-1 pl-2 m-0"><span class="zi-ti">美食攻略</span><a class="g-d" href="">更多..</a></p>
+                    <!-- 一行两个 -->
+                    <div class="col-6">
+                        <div class="card p-2 border-0 bg-transparent">
+                            <img class="w-100" src="../img/strategy/meishi/huoguo1.jpg" alt="">
+                            <p class="text-center text-primary font-small m-0 mt-1 py-0">洞子·老火锅</p>
+                            <p class="text-center font-red font-small m-0 mt-1 py-0">麻辣爽口,回味无穷</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card p-2 border-0 bg-transparent">
+                            <img class="w-100" src="../img/foods/timg.jpg" alt="">
+                            <p class="text-center text-primary font-small m-0 mt-1 py-0">解放碑·酸辣粉</p>
+                            <p class="text-center font-red font-small m-0 mt-1 py-0">酸辣可口,美味无限</p>
+                        </div>
+                    </div>
+                    <!-- 一行两个 -->
+                    <div class="col-6">
+                        <div class="card p-2 border-0 bg-transparent">
+                            <img class="w-100" src="../img/strategy/meishi/xiaomian.jpg" alt="">
+                            <p class="text-center text-primary font-small m-0 mt-1 py-0">老太婆·摊摊面</p>
+                            <p class="text-center font-red font-small m-0 mt-1 py-0">麻辣鲜香,筋道好面</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card p-2 border-0 bg-transparent">
+                            <img class="w-100" src="../img/strategy/meishi/laziji.jpg" alt="">
+                            <p class="text-center text-primary font-small m-0 mt-1 py-0">歌乐山·辣子鸡</p>
+                            <p class="text-center font-red font-small m-0 mt-1 py-0">体验辣椒里面找鸡肉</p>
+                        </div>
+                    </div>  
+                                      <!-- 景区攻略 -->
+                    <p class="col-12 bg-red text-light p-1 pl-2 m-0"><span class="zi-ti">景区攻略</span><a class="g-d" href="">更多..</a></p>
+                    <!-- 一行两个 -->
+                    <div class="col-6">
+                        <div class="card p-2 border-0 bg-transparent">
+                            <img class="w-100" src="../img/strategy/jingqu/hyd.jpg" alt="">
+                            <p class="text-center text-primary font-small m-0 mt-1 py-0">渝中区·洪崖洞</p>
+                            <p class="text-center font-red font-small m-0 mt-1 py-0"></p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card p-2 border-0 bg-transparent">
+                            <img class="w-100" src="../img/strategy/jingqu/ctm.jpg" alt="">
+                            <p class="text-center text-primary font-small m-0 mt-1 py-0">南岸区·南滨路</p>
+                            <p class="text-center font-red font-small m-0 mt-1 py-0"></p>
+                        </div>
+                    </div>
+                    <!-- 一行两个 -->
+                    <div class="col-6">
+                        <div class="card p-2 border-0 bg-transparent">
+                            <img class="w-100" src="../img/strategy/jingqu/ctm1.jpg" alt="">
+                            <p class="text-center text-primary font-small m-0 mt-1 py-0">渝中区·朝天门</p>
+                            <p class="text-center font-red font-small m-0 mt-1 py-0"></p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card p-2 border-0 bg-transparent">
+                            <img class="w-100" src="../img/strategy/jingqu/htx.jpg" alt="">
+                            <p class="text-center text-primary font-small m-0 mt-1 py-0">南岸区·海棠溪</p>
+                            <p class="text-center font-red font-small m-0 mt-1 py-0"></p>
+                        </div>
+                    </div>
+                                      <!-- 酒店攻略 -->
+                    <p class="col-12 bg-red text-light p-1 pl-2 m-0"><span class="zi-ti">酒店攻略</span><a class="g-d" href="">更多..</a></p>
+                    <!-- 一行两个 -->
+                    <div class="col-6">
+                        <div class="card p-2 border-0 bg-transparent">
+                            <img class="w-100" src="../img/strategy/jiudian/ds.jpg" alt="">
+                            <p class="text-center text-primary font-small m-0 mt-1 py-0">戴斯温泉酒店</p>
+                            <p class="text-center font-red font-small m-0 mt-1 py-0"></p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card p-2 border-0 bg-transparent">
+                            <img class="w-100" src="../img/strategy/jiudian/xld.jpg" alt="">
+                            <p class="text-center text-primary font-small m-0 mt-1 py-0">喜来登酒店</p>
+                            <p class="text-center font-red font-small m-0 mt-1 py-0"></p>
+                        </div>
+                    </div>
+                    <!-- 一行两个 -->
+                    <div class="col-6">
+                        <div class="card p-2 border-0 bg-transparent">
+                            <img class="w-100" src="../img/strategy/jiudian/xed.jpg" alt="">
+                            <p class="text-center text-primary font-small m-0 mt-1 py-0">希尔顿逸林酒店</p>
+                            <p class="text-center font-red font-small m-0 mt-1 py-0"></p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card p-2 border-0 bg-transparent">
+                            <img class="w-100" src="../img/strategy/jiudian/ljjd.jpg" alt="">
+                            <p class="text-center text-primary font-small m-0 mt-1 py-0">两江酒店</p>
+                            <p class="text-center font-red font-small m-0 mt-1 py-0"></p>
+                        </div>
+                    </div>
+                                      <!-- 休闲娱乐 -->
+                    <p class="col-12 bg-red text-light p-1 pl-2 m-0"><span class="zi-ti">休闲娱乐</span><a class="g-d" href="">更多..</a></p>
+                    <!-- 一行两个 -->
+                    <div class="col-6">
+                        <div class="card p-2 border-0 bg-transparent">
+                            <img class="w-100" src="../img/strategy/xxyl/msjb.jpg" alt="">
+                            <p class="text-center text-primary font-small m-0 mt-1 py-0">九街·缪斯酒吧</p>
+                            <p class="text-center font-red font-small m-0 mt-1 py-0">友情提示:蹦迪之前带护膝</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card p-2 border-0 bg-transparent">
+                            <img class="w-100" src="../img/strategy/xxyl/ssmj.jpg" alt="">
+                            <p class="text-center text-primary font-small m-0 mt-1 py-0">北碚·水上麻将</p>
+                            <p class="text-center font-red font-small m-0 mt-1 py-0">夏天,让你依然快乐</p>
+                        </div>
+                    </div>
+                    <!-- 一行两个 -->
+                    <div class="col-6">
+                        <div class="card p-2 border-0 bg-transparent">
+                            <img class="w-100" src="../img/strategy/xxyl/wmyx.jpg" alt="">
+                            <p class="text-center text-primary font-small m-0 mt-1 py-0">完美影像</p>
+                            <p class="text-center font-red font-small m-0 mt-1 py-0">白天逛街,晚上洗脚</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card p-2 border-0 bg-transparent">
+                            <img class="w-100" src="../img/strategy/xxyl/wqjd.jpg" alt="">
+                            <p class="text-center text-primary font-small m-0 mt-1 py-0">温泉酒店</p>
+                            <p class="text-center font-red font-small m-0 mt-1 py-0">其实冬天也可以玩水上麻将</p>
+                        </div>
+                    </div>                 
+                </div>
+            </div>            
+        </div>
+      
+        <!-- 右边部分 -->
+        <div class="col-4">
+            <div id="parent" class="border rounded border-red ml-2">
+                <p class="col-12 bg-red rounded-top text-light p-1 pl-2 m-0">排行榜</p>
+                <div class="card">
+                    <div class="card-header p-1">
+                        <a class="card-link font-small font-red" data-toggle="collapse" href="#card1">卡片一</a>
+                    </div>
+                    <div id="card1" class="collapse" data-parent="#parent">
+                        <div class="card-body row no-gutters">
+                            <img class="col-4 w-100" src="../img/strategy/meishi/huoguo1.jpg" alt="">
+                            <div class="col-8 p-3">
+                                <p class="text-primary font-small m-0 mb-1 py-0">洞子·老火锅</p>
+                                <p class="font-red font-small m-0 py-0">麻辣爽口,回味无穷</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header p-1">
+                        <a class="card-link font-small font-red" data-toggle="collapse" href="#card2">卡片二</a>
+                    </div>
+                    <div id="card2" class="collapse" data-parent="#parent">
+                        <div class="card-body row no-gutters">
+                            <img class="col-4 w-100" src="../img/strategy/jingqu/hyd.jpg" alt="">
+                            <div class="col-8 p-3">
+                                <p class="text-primary font-small m-0 mb-1 py-0">渝中区·洪崖洞</p>
+                                <p class="font-red font-small m-0 py-0">让山城的夜,更美</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header p-1">
+                        <a class="card-link font-small font-red" data-toggle="collapse" href="#card3">卡片三</a>
+                    </div>
+                    <div id="card3" class="collapse" data-parent="#parent">
+                        <div class="card-body row no-gutters">
+                            <img class="col-4 w-100" src="../img/foods/timg.jpg" alt="">
+                            <div class="col-8 p-3">
+                                <p class="text-primary font-small m-0 mb-1 py-0">解放碑·酸辣粉</p>
+                                <p class="font-red font-small m-0 py-0">酸辣可口,美味无限</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header p-1">
+                        <a class="card-link font-small font-red" data-toggle="collapse" href="#card3">卡片四</a>
+                    </div>
+                    <div id="card3" class="collapse" data-parent="#parent">
+                        <div class="card-body row no-gutters">
+                            <img class="col-4 w-100" src="../img/strategy/jingqu/ctm1.jpg" alt="">
+                            <div class="col-8 p-3">
+                                <p class="text-primary font-small m-0 mb-1 py-0">解放碑·朝天门</p>
+                                <p class="font-red font-small m-0 py-0">让山城的夜,更美</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header p-1">
+                        <a class="card-link font-small font-red" data-toggle="collapse" href="#card3">卡片五</a>
+                    </div>
+                    <div id="card3" class="collapse" data-parent="#parent">
+                        <div class="card-body row no-gutters">
+                            <img class="col-4 w-100" src="../img/strategy/meishi/xiaomian.jpg" alt="">
+                            <div class="col-8 p-3">
+                                <p class="text-primary font-small m-0 mb-1 py-0">老太婆·摊摊面</p>
+                                <p class="font-red font-small m-0 py-0">麻辣鲜香,筋道好面</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </body>
 </html>
-
