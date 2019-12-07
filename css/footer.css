@@ -1,4 +1,12 @@
 .bottom_menu {
   width: 100%;
-  height: 12rem;
+  height: 15rem;
   background: #aa1e11; }
+
+#qrcode, #cqgw {
+  width: 9rem;
+  height: 9rem; }
+  #qrcode canvas, #cqgw canvas {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 0.25rem; }

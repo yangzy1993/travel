@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="../css/bootstrap.css">
     <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.qrcode.min.js"></script>
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../css/comm.css">
@@ -15,36 +16,54 @@
 <div class="bottom_menu">
     <div class="container">
       <div class="row no-gutters">
-        <div class="col-4">
-            <p class="m-0 py-1"> 
-              <a class="text-light" href="">©巴山渝水</a> 
-            </p>
-            <p class="m-0 py-1">
-              <a class="text-light" href="">互联网信息服务资格证</a>
-            </p>
-            <p class="m-0 py-1">
-              <a class="text-light" href="">旅游行业</a>
-            </p>
+        <div class="col-3 mt-3">
+            <h6 class="m-0 p-2 text-light">巴山渝水攻略网</h6>
+            <h6 class="m-0 p-2 text-light font-small">中国年轻一代用得更多的旅游网站</h6>
+            <h6 class="m-0 p-2 text-light font-small">三千万重庆市民共同打造的"攻略神器"</h6>
+            <h6 class="m-0 p-2 text-light font-small">38个区、县、自治县的风景等你领略</h6>
+            <h6 class="m-0 p-2 text-light font-small">重庆独有的特色美味等你品尝</h6>
+            <h6 class="m-0 p-2 text-light font-small">重庆各大网红打卡地期待您的到来</h6>
         </div>
-        <div class="col-4">
-          <p>
-            <a class="text-light" href="">关于我们</a>
-          </p>
-          <p>
-            <a class="text-light" href="">联系我们</a>
-          </p>
+        <div class="col-3 mt-3">
+          <h6 class="m-0 p-2 text-light">关于我们</h6>
+          <h6 class="m-0 p-2 text-light font-small">
+            关于巴山渝水
+            <span class="d-inline-block pl-2">联系我们</span>
+          </h6>
+          <h6 class="m-0 p-2 text-light font-small">
+            <span>隐私政策</span>
+            <span class="d-inline-block pl-2">商标声明</span>
+          </h6>
+          <h6 class="m-0 p-2 text-light font-small">服务协议</h6>
+          <h6 class="m-0 p-2 text-light font-small">网络信息侵权通知指引</h6>
+          <h6 class="m-0 p-2 text-light font-small">巴山渝水攻略网服务监督员</h6>
         </div>
-        <div class="col-4">
-
+        <div class="col-3 mt-3">
+          <div class="card qrcodes justify-content-around align-items-center bg-transparent border-0">
+            <div id="qrcode" class="rounded bg-white card border-0 justify-content-around align-items-center"></div>
+            <p class="text-light text-center font-small">巴山渝水欢迎您</p>
+          </div>
         </div>
-        <div class="col-12">
+        <div class="col-3 mt-3">
+          <div class="card justify-content-around align-items-center bg-transparent border-0">
+            <div id="cqgw" class="rounded bg-white card border-0 justify-content-around align-items-center"></div>
+            <p class="text-light text-center font-small">重庆市人民政府官网</p>
+          </div>
+        </div>
+        <div class="col-12 mt-2">
           <p class="text-center font-small text-light m-0 py-1">
-              ©2019 巴山渝水有限公司 版权所有 渝ICP备110101010号-10
+              ©2019 巴山渝水有限公司 版权所有 渝ICP备000000000号-00
           </p>
         </div>
       </div> 
     </div>
+  </div>
 </div>
-</div>
+<script>
+  var host=location.host;
+  var pathname="/public/index.html";
+  $('#qrcode').qrcode(host+pathname);
+  $('#cqgw').qrcode("http://coop.cq.gov.cn/");
+</script>
 </body>
 </html>
