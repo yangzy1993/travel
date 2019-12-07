@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+    <title>登录</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/comm.css">
+    <link rel="stylesheet" href="../css/food.css">
+</head>
+<body>
+<header>
+    <iframe class="my_header" src="header.html" frameborder="0" scrolling="no"></iframe>
+</header>
+<div class="container">
+  <div class="row no-gutters m-4">
+    <!-- 左侧部分 -->
+    <div class="col-7">
+      <div class="card border-0 bg-transparent justify-content-around align-items-center">
+        <img class="w-100 rounded-circle" src="../img/login/login.jpg" alt="">
+      </div>
+    </div>
+    <!-- 右边部分 -->
+    <div class="col-5">
+      <div class="card border-0 border-red rounded bg-transparent justify-content-center align-items-center m-3 mt-5">
+        <div class="w-75 border border-red rounded">
+          <p class="bg-red text-light rounded-top m-0 py-1 d-flex">
+            <span class="col-6 d-inline-block pl-2">账户登录</span>
+            <a class="col-6 text-light text-right d-inline-block pr-2 pt-1 font-small" href="">注册</a>
+          </p> 
+          <ul class="list-unstyled">
+            <li class="m-2">
+              <input class="form-control p-2 font-small bg-transparent" type="text" placeholder="请输入用户名">
+            </li>
+            <li class="m-2">
+              <span class="font-small font-red pl-2">用户名不能为空!</span>
+            </li>
+            <li class="m-2">
+              <input class="form-control p-2 font-small bg-transparent" type="password" placeholder="请输入密码">
+            </li>
+            <li class="m-2">
+              <span class="font-small font-red pl-2">密码不能为空!</span>
+            </li>
+            <li class="m-2">
+              <p class="m-0 py-1 d-flex">
+                <span class="col-6 d-inline-block pl-2">
+                  <input class="p-1" type="checkbox" name="log" id="log">
+                  <label class="font-red font-small m-0" for="log">记住密码</label>
+                </span>
+                <a class="col-6 font-red text-right d-inline-block pr-2 pt-1 font-small" href="">忘记密码?</a>
+              </p> 
+            </li>
+            <li class="m-2 text-center">
+              <a class="btn bg-red text-light w-100" href="">登录</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer>
+    <iframe class="my_footer" src="footer.html" frameborder="0" scrolling="no"></iframe>
+</footer>
+</body>
+</html>
