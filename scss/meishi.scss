@@ -1,9 +1,31 @@
-.hh{height:70rem;}
-.kg{background: #eeecec;}
-.dw{display:flex;}
-.lef{
-    flex-wrap: wrap;
-
-    width: 40rem;
-    height: 25rem;
-}
+.breadcrumb-item + .breadcrumb-item::before{
+    content: " ";
+  }    
+  
+  .area{
+    padding-top: 0.75rem; 
+    display: inline-block
+  }
+  
+  /*分页*/
+  .page-link{
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+  }
+  
+  .page-item+.page-item{
+    margin-left: 0.5rem;  
+  }
+  .page-link:hover{
+    border-color: #aa1e11 !important;
+    color: #aa1e11;
+    cursor: pointer;
+  }
+  .page-item.active .page-link{
+    background: #aa1e11 !important;
+    border-color: #aa1e11;
+  }
+  .page-item.disabled .page-link{
+    color: #9aa7b3;
+  }
+  
