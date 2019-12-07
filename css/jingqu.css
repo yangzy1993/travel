@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "UTF-8";
 .breadcrumb-item + .breadcrumb-item::before {
   content: " "; }
@@ -25,3 +26,7 @@
 
 .page-item.disabled .page-link {
   color: #9aa7b3; }
+=======
+.p {
+  color: red; }
+>>>>>>> 8de96ca034c467b4c1eacd3e90df0af3e418effe

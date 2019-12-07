@@ -1,0 +1,15 @@
+ $cq_red:#aa1e11;
+ .bottom_menu{
+  width:100%;
+  height: 15rem;
+  background:$cq_red;
+}   
+#qrcode,#cqgw{
+  width: 9rem;
+  height: 9rem;
+  canvas{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 0.25rem;
+  }
+}
