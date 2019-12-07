@@ -1,0 +1,15 @@
+.breadcrumb-item + .breadcrumb-item::before{
+  content: " ";
+}    
+
+.area{
+  padding-top: 0.75rem; 
+  display: inline-block
+}
+
+// 面包屑导航
+.b + .b::before{content: ">";}
+.bg-tm{
+  background-color:transparent;
+  
+  }
