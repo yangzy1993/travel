@@ -1,0 +1,31 @@
+//导航栏
+.breadcrumb{
+  background:transparent;
+}
+.breadcrumb-item + .breadcrumb-item::before{
+  content:">";
+}
+//正文
+.retract{
+  text-indent:2em;
+}
+.font-large{
+  font-size: 1.1rem !important;
+}
+.font-color{
+  color:rgba(0,0,0,0.7);
+}
+.w-90 {
+  width: 90% !important;
+}
+.among{
+  margin-left:5%;
+}
+$cq_red:#aa1e11;
+.mock:hover{
+  color: $cq_red !important;
+  text-decoration: none;
+}
+.h-80{
+  height:25rem;
+}

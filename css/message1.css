@@ -1,0 +1,8 @@
+.breadcrumb {
+  background: transparent; }
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">"; }
+
+.ml-6 {
+  margin-left: 13rem !important; }
