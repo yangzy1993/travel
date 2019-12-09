@@ -1,21 +1,64 @@
-/*banner样式*/
-/*banner左右箭头样式*/
-.carousel-control-prev,.carousel-control-next{
-  width: 4%;
-  height: 20%;
-  top: 40%;
-  background: rgba(0,0,0,.3);
-  border-radius: 0.25rem;
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+    
+  .carousel-inner{
+    height: 420px;
+    width: 100%;
+  }
+  .sz{
+    font-size:43px;
+    font:bold;
+  }
+  #ml1{
+    margin-top:41px ;
+    font-size:10px; 
+    float: right;
+  }
+  .w-9{
+    width: 1px;;
+    font-size:17px;
+  }
+  .border-h{
+    height: 340px;
+  border: 1px solid black;
+   border-top:0px ;
+   border-bottom:0px; 
+  
+  }
+  .w-10{
+    margin-left:80px ;
+    width:470px;
+    height: 370px; 
+    margin-top:15px ;
 }
-/*轮播图指示器样式*/
-.carousel-indicators li{
-  background: #fff;
-  border-radius: 50%;
-  margin-left: 0.4rem;
-  margin-right: 0.4rem;
-  width: 0.8rem;
-  height: 0.8rem;
+.w-10:hover{
+  transition-duration:2s;
+  width:650px;
+   height:500px; }  
+.w-2{
+    width:350px;
+    height:250px;
+    margin-right:20px ;
 }
-.carousel-indicators .active{
-  background: #0aa1ed;
+.text-s{
+  font-size:20px;
+  margin-left:100px ;
 }
+.w-6{
+width:275px;
+height:300px;
+}
+.w-7{
+ width:100%;
+height:120PX;
+margin-bottom:10px;
+}
+
+.w-8{
+    width:240px;
+   height:170PX;
+   margin-left:6px ;
+   }
+  
