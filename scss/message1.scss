@@ -1,10 +1,6 @@
-//导航栏
-.breadcrumb{
-  background:transparent;
-}
-.breadcrumb-item + .breadcrumb-item::before{
-  content:">";
-}
 .ml-6 {
   margin-left: 13rem !important;
+}
+p::selection,h4::selection{
+  color:#000;background:#f00;
 }
